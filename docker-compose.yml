@@ -1,11 +1,11 @@
-version: '3.5'
+version: "3.5"
 
 services:
-  clinica:
+  farmacia:
     build:
-      context: '.'
+      context: "."
 
-    container_name: clinica
+    container_name: farmacia
 
     volumes:
       - .:/var/www/html
