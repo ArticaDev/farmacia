@@ -2,6 +2,61 @@
 @section('content')
     <p>Content</p>
 @endsection
+
+@section('card')
+<div class="container">
+        <div class="row justify-content-center">
+            <!-- Start: Card -->
+            <div class="col-sm-6 col-lg-4" style="margin-right: auto;margin-bottom: 20px;">
+                <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="https://images.pexels.com/photos/159211/headache-pain-pills-medication-159211.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500">
+                    <div class="card-body info" style="padding: 22px;">
+                        <h3 class="text-break text-left card-title" style="font-family: Oswald, sans-serif;margin-bottom: 17px;">Título do produto</h3>
+                        <h3 class="text-left card-title" style="font-family: Oswald, sans-serif;font-size: 24px;">R$ 30,00</h3>
+                        <div class="row">
+                            <div class="col d-flex"><input type="number" style="width: 75px;margin: 0px;margin-right: auto;" min="1" placeholder="1"><a href="#"><button class="btn btn-danger" type="button" style="margin-right: auto;margin-left: auto;background: rgb(203,36,48);">+ Carrinho<i class="fa fa-shopping-cart" style="margin-left: 10px;"></i></button></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End: Card -->
+            <!-- Start: Card -->
+            <div class="col-sm-6 col-lg-4" style="margin-right: auto;margin-bottom: 20px;">
+                <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="https://images.pexels.com/photos/159211/headache-pain-pills-medication-159211.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500">
+                    <div class="card-body info" style="padding: 22px;">
+                        <h3 class="text-break text-left card-title" style="font-family: Oswald, sans-serif;margin-bottom: 17px;">Título do produto</h3>
+                        <h3 class="text-left card-title" style="font-family: Oswald, sans-serif;font-size: 24px;">R$ 30,00</h3>
+                        <div class="row">
+                            <div class="col d-flex"><input type="number" style="width: 75px;margin: 0px;margin-right: auto;" min="1" placeholder="1"><a href="#"><button class="btn btn-danger" type="button" style="margin-right: auto;margin-left: auto;background: rgb(203,36,48);">+ Carrinho<i class="fa fa-shopping-cart" style="margin-left: 10px;"></i></button></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End: Card --><!-- Start: Card -->
+            <div class="col-sm-6 col-lg-4" style="margin-right: auto;margin-bottom: 20px;">
+                <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="https://images.pexels.com/photos/159211/headache-pain-pills-medication-159211.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500">
+                    <div class="card-body info" style="padding: 22px;">
+                        <h3 class="text-break text-left card-title" style="font-family: Oswald, sans-serif;margin-bottom: 17px;">Título do produto</h3>
+                        <h3 class="text-left card-title" style="font-family: Oswald, sans-serif;font-size: 24px;">R$ 30,00</h3>
+                        <div class="row">
+                            <div class="col d-flex"><input type="number" style="width: 75px;margin: 0px;margin-right: auto;" min="1" placeholder="1"><a href="#"><button class="btn btn-danger" type="button" style="margin-right: auto;margin-left: auto;background: rgb(203,36,48);">+ Carrinho<i class="fa fa-shopping-cart" style="margin-left: 10px;"></i></button></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End: Card -->
+        </div>
+    </div>
+@endsection
+
+
+
+
+
+
+
+
+
+
 @section('footer')
 <div style="font-family: Oswald, sans-serif;font-weight: normal;">
         <div class="row">

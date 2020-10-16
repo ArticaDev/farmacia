@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link  href="{{ asset('assets/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{ asset('assets/css/styles.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/smoothproducts.css') }}" rel="stylesheet">
@@ -36,6 +37,7 @@
 <!-- END HEADER -->     
 <!-- START CONTENT -->
 @yield('content')
+@yield('card')
 <!-- END CONTENT -->
 <!-- START FOOTER-->
 @yield('footer')
