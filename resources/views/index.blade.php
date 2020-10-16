@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div class="footer-copyright" style="background-color: #671218;border-style: none;margin-top: 30px;">
-                <p style="color: rgb(255,255,255);">Desenvolvido por Artica Dev -&nbsp; 2020&nbsp;</p>
+                <a href="http://www.articadev.com"><p style="color: rgb(255,255,255);">Desenvolvido por Artica Dev -&nbsp; 2020&nbsp;</p></a>
             </div>
         </footer>
         <!-- End: Footer Dark -->
